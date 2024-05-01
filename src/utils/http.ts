@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://match-me-lwo0.onrender.com";
 
 export async function http(url: string, method: string, body?: any) {
   let headers = {
