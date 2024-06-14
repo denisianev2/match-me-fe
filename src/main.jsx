@@ -45,7 +45,7 @@ const router = createBrowserRouter([
     path: "/app/mentees",
     element: <Mentees />,
   },
-]);
+])
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
